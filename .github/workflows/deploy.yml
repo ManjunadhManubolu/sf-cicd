@@ -1,10 +1,12 @@
-  on:
+on:
   push:
-  branches: -main
+    branches:
+      - main
+
 jobs:
   build-and-deploy:
-    name: Buildapp and deploy to Azure
+    name: Build app and deploy to Azure
     runs-on: ubuntu-latest
     steps:
       - name: Demo
-        run: echo "Run me.."
+        run: echo "I got the script to run"
