@@ -12,4 +12,4 @@ jobs:
       - name: npm install and build
         run:
           # build the app using npm
-        npm install
+          npm install
